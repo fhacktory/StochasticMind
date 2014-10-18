@@ -165,6 +165,7 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
      <Compile Include="Assets\Scripts\MainBattle\Enemy\EnemyAttributes.cs" />
+     <Compile Include="Assets\Scripts\MainBattle\HPBars\DrawHP.cs" />
      <Compile Include="Assets\Scripts\MainBattle\HUD\ActionsMenu.cs" />
      <Compile Include="Assets\Scripts\MainBattle\HUD\NameDisplay.cs" />
      <Compile Include="Assets\Scripts\MainBattle\Player\PlayerAttributes.cs" />
@@ -200,7 +201,7 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/pc/Documents/StochasticMind/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Natacha/Desktop/Git/StochasticMind/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

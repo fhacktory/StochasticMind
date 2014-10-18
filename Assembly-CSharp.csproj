@@ -165,6 +165,7 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
      <Compile Include="Assets\Scripts\MainBattle\Enemy\EnemyAttributes.cs" />
+     <Compile Include="Assets\Scripts\MainBattle\HPBars\DrawHP.cs" />
      <Compile Include="Assets\Scripts\MainBattle\HUD\ActionsMenu.cs" />
      <Compile Include="Assets\Scripts\MainBattle\HUD\NameDisplay.cs" />
      <Compile Include="Assets\Scripts\MainBattle\Player\PlayerAttributes.cs" />
