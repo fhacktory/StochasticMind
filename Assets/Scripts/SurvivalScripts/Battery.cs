@@ -27,7 +27,7 @@ public class Battery : MonoBehaviour {
 
     void OnGUI()
     {
-        GUI.Label(new Rect(10, Screen.height - 100, 100, 100), "Battery Level: " + energyLvl);
+        GUI.Label(new Rect(10, Screen.height - 100, 120, 50), "Battery Level: " + energyLvl);
     }
 
     IEnumerator DecreaseEnergyLevel()
