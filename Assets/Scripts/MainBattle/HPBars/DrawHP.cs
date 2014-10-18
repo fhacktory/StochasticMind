@@ -28,7 +28,7 @@ public class DrawHP : MonoBehaviour
 
         for (int i = 1 ; i <= enemyAttributes.life ; i++)
         {
-            GUI.DrawTexture(new Rect(Screen.width * 0.194f + i * 55, Screen.height * 0.113f,
+            GUI.DrawTexture(new Rect(Screen.width * 0.2f + i * 55, Screen.height * 0.113f,
                 Screen.width * 0.028f, Screen.height * 0.05f), enemyLifeTexture);
         }
 
@@ -36,7 +36,7 @@ public class DrawHP : MonoBehaviour
        //     Screen.width * 0.35f, Screen.height * 0.1f), lifeBarTexture);
         for (int i = 1; i <= playerAttributes.life; i++)
         {
-            GUI.DrawTexture(new Rect(Screen.width * 0.704f + i * 55, Screen.height * 0.595f,
+            GUI.DrawTexture(new Rect(Screen.width * 0.5f + i * 55, Screen.height * 0.7f,
                 Screen.width * 0.028f, Screen.height * 0.05f), playerLifeTexture);
         }
     }
