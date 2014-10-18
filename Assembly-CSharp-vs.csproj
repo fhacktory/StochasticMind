@@ -175,6 +175,7 @@
      <Compile Include="Assets\Scripts\SurvivalScripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\SurvivalScripts\Player.cs" />
      <Compile Include="Assets\Scripts\SurvivalScripts\SpawnMgr.cs" />
+     <Compile Include="Assets\Scripts\SurvivalScripts\Win.cs" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
