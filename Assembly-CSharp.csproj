@@ -169,6 +169,7 @@
      <Compile Include="Assets\Scripts\MainBattle\HUD\ActionsMenu.cs" />
      <Compile Include="Assets\Scripts\MainBattle\HUD\NameDisplay.cs" />
      <Compile Include="Assets\Scripts\MainBattle\Player\PlayerAttributes.cs" />
+     <Compile Include="Assets\Scripts\MainBattle\SuperObject.cs" />
      <Compile Include="Assets\Scripts\MenuScripts\ExitApp.cs" />
      <Compile Include="Assets\Scripts\MenuScripts\LaunchStory.cs" />
      <Compile Include="Assets\Scripts\MenuScripts\Rescale.cs" />
