@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{FA6200A8-0D25-3598-8D98-6C754727D01B}</ProjectGuid>
+	<ProjectGuid>{C7FE4945-8518-F11E-A37F-494187CA60BF}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\EnemyWave.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
@@ -176,6 +177,12 @@
      <Compile Include="Assets\Scripts\PointAndClick\Item\CatchableItem.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Item\ClickableItem.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Randomizer\MapRandomizer.cs" />
+     <Compile Include="Assets\Scripts\ShootEmUp\Bullet.cs" />
+     <Compile Include="Assets\Scripts\ShootEmUp\EnableWave.cs" />
+     <Compile Include="Assets\Scripts\ShootEmUp\Enemy.cs" />
+     <Compile Include="Assets\Scripts\ShootEmUp\MapEnd.cs" />
+     <Compile Include="Assets\Scripts\ShootEmUp\Player.cs" />
+     <Compile Include="Assets\Scripts\ShootEmUp\WavefHACKtory.cs" />
      <Compile Include="Assets\Scripts\SurvivalScripts\Battery.cs" />
      <Compile Include="Assets\Scripts\SurvivalScripts\DoorMgr.cs" />
      <Compile Include="Assets\Scripts\SurvivalScripts\Enemy.cs" />
@@ -216,7 +223,7 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
      <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/pc/Documents/StochasticMind/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/boraccino/Documents/StochasticMindd/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

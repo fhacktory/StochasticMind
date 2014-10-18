@@ -46,6 +46,9 @@
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\EnemyWave.cs" />
@@ -167,23 +170,31 @@
     <Compile Include="Assets\NGUI\Scripts\UI\UITiledSprite.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
-    <Compile Include="Assets\Scripts\MainBattle\Enemy\EnemyAttributes.cs" />
-    <Compile Include="Assets\Scripts\MainBattle\HUD\ActionsMenu.cs" />
-    <Compile Include="Assets\Scripts\MainBattle\HUD\NameDisplay.cs" />
-    <Compile Include="Assets\Scripts\MainBattle\Player\PlayerAttributes.cs" />
-    <Compile Include="Assets\Scripts\MenuScripts\ExitApp.cs" />
-    <Compile Include="Assets\Scripts\MenuScripts\LaunchStory.cs" />
-    <Compile Include="Assets\Scripts\MenuScripts\Rescale.cs" />
-    <Compile Include="Assets\Scripts\ShootEmUp\Bullet.cs" />
-    <Compile Include="Assets\Scripts\ShootEmUp\EnableWave.cs" />
-    <Compile Include="Assets\Scripts\ShootEmUp\Enemy.cs" />
-    <Compile Include="Assets\Scripts\ShootEmUp\MapEnd.cs" />
-    <Compile Include="Assets\Scripts\ShootEmUp\Player.cs" />
-    <Compile Include="Assets\Scripts\ShootEmUp\WavefHACKtory.cs" />
+    <Compile Include="Assets\Scripts\MainBattle\HPBars\DrawHP.cs" />
+    <Compile Include="Assets\Scripts\PointAndClick\Camera\CameraController.cs" />
+    <Compile Include="Assets\Scripts\PointAndClick\Item\CatchableItem.cs" />
+    <Compile Include="Assets\Scripts\PointAndClick\Item\ClickableItem.cs" />
+    <Compile Include="Assets\Scripts\PointAndClick\Randomizer\MapRandomizer.cs" />
+    <Compile Include="Assets\Scripts\SurvivalScripts\Battery.cs" />
+    <Compile Include="Assets\Scripts\SurvivalScripts\DoorMgr.cs" />
+    <Compile Include="Assets\Scripts\SurvivalScripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\SurvivalScripts\Player.cs" />
+    <Compile Include="Assets\Scripts\SurvivalScripts\SpawnMgr.cs" />
+    <Compile Include="Assets\Scripts\SurvivalScripts\Win.cs" />
     <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+    <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+    <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
     <None Include="Assets\NGUI\Examples\Other\English.txt" />
     <None Include="Assets\NGUI\Examples\Other\French.txt" />
     <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
+    <None Include="Assets\NGUI\ReadMe - 2.7.0.txt" />
     <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (AlphaClip).shader" />
     <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
@@ -202,6 +213,7 @@
     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>
