@@ -1,27 +1,26 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Bullet : MonoBehaviour {
-
+public class EnableWave : MonoBehaviour {
 
     [SerializeField]
-    private float speed;
-    private Transform trans;
-
+    private GameObject wave;
 
 	// Use this for initialization
 	void Start () {
-        trans = transform;
 	
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        trans.Translate(trans.up * speed * Time.deltaTime, Space.World);
-    }
+	
+	}
 
     void OnTriggerEnter(Collider hit)
     {
-        Destroy(gameObject);
+        if (hit.tag == "Player")
+        {
+            wave.SetActiveRecursively(true);
+        }
     }
 }

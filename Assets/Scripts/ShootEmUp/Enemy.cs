@@ -68,15 +68,8 @@ public class Enemy : MonoBehaviour {
         }
     }
 
-    void OnCollisionEnter()
-    {
-        Debug.Log("lolaurvware");
-        life -= 1;
-    }
-
     void OnTriggerEnter()
     {
-        Debug.Log("lolbonjoure");
         life -= 1;
     }
 }

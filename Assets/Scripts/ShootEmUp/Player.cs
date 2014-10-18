@@ -80,20 +80,11 @@ public class Player : MonoBehaviour {
         {
             Destroy(trans.root.gameObject);
         }
-
 	}
-
-    void OnCollisionEnter(Collision hit)
-    {
-        if (hit.collider.tag == "Terrain")
-            Destroy(gameObject);
-        else
-            life -= 1;
-    }
 
     void OnTriggerEnter(Collider hit)
     {
-        if (hit.tag == "Terrain")
+        if (hit.transform.root.tag == "Terrain")
             Destroy(gameObject);
         else
             life -= 1;
