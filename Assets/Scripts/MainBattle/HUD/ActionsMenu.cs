@@ -26,7 +26,7 @@ public class ActionsMenu : MonoBehaviour
 
         if (GUI.Button(new Rect(Screen.width * 0.1f, Screen.height * 0.85f,
                             Screen.width * 0.2f, Screen.height * 0.1f), "Attack", buttonStyle))
-            //Application.LoadLevel(0);
+            Application.LoadLevel(0);
 
         buttonStyle.normal.textColor = new Color(0.1f, 0.4f, 0.5f);
 
