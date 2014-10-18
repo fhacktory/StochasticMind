@@ -1,22 +1,32 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Enemy : MonoBehaviour {
+namespace Survival
+{
 
-    public GameObject       Target;
+    public class Enemy : MonoBehaviour
+    {
 
-    private NavMeshAgent    agent;
-    private SpawnMgr        spawnerManager;
+        public GameObject Target;
 
-	// Use this for initialization
-	void Start () {
-        agent = GetComponent<NavMeshAgent>();
-        spawnerManager = GameObject.FindGameObjectWithTag("Maze").GetComponent<SpawnMgr>();
-        transform.position = spawnerManager.Spawners[Random.Range(0, spawnerManager.Spawners.Length)].transform.position;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        agent.SetDestination(Target.transform.position);
-	}
+        private NavMeshAgent agent;
+
+        // Use this for initialization
+        void Start()
+        {
+            agent = GetComponent<NavMeshAgent>();
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            agent.SetDestination(Target.transform.position);
+        }
+
+        void OnCollisionEnter(Collision hit)
+        {
+            if (hit.transform.tag == "Player")
+                Debug.Log("YOU LOSE");
+        }
+    }
 }
