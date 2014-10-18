@@ -1,75 +1,81 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Enemy : MonoBehaviour {
-
-    [SerializeField]
-    private int life = 5;
-    [SerializeField]
-    private float firePerSecond = 2.0f;
-    [SerializeField]
-    private float speed = 2.0f;
-    [SerializeField]
-    private GameObject bullet;
-    [SerializeField]
-    private Transform[] fireStart;
-    private Transform trans;
-
-	// Use this for initialization
-	void Start () {
-
-        trans = transform;
-        StartCoroutine("Fire");
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-
-        trans.Translate(trans.forward * speed * Time.deltaTime, Space.World);
-
-        if (life <= 0)
-            Destroy(gameObject);
-	
-	}
-
-    IEnumerator Fire()
+namespace ShootEmUp
+{
+    public class Enemy : MonoBehaviour
     {
-        while (true)
+
+        [SerializeField]
+        private int life = 5;
+        [SerializeField]
+        private float firePerSecond = 2.0f;
+        [SerializeField]
+        private float speed = 2.0f;
+        [SerializeField]
+        private GameObject bullet;
+        [SerializeField]
+        private Transform[] fireStart;
+        private Transform trans;
+
+        // Use this for initialization
+        void Start()
         {
-            yield return new WaitForSeconds(1 / firePerSecond);
 
-            if (bullet != null)
+            trans = transform;
+            StartCoroutine("Fire");
+
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+
+            trans.Translate(trans.forward * speed * Time.deltaTime, Space.World);
+
+            if (life <= 0)
+                Destroy(gameObject);
+
+        }
+
+        IEnumerator Fire()
+        {
+            while (true)
             {
-                foreach (Transform fire in fireStart)
+                yield return new WaitForSeconds(1 / firePerSecond);
+
+                if (bullet != null)
                 {
-                    Vector3 firePosition;
-                    Vector3 forward;
-
-                    if (fire != null)
+                    foreach (Transform fire in fireStart)
                     {
-                        firePosition = fire.position;
-                        forward = fire.forward;
+                        Vector3 firePosition;
+                        Vector3 forward;
+
+                        if (fire != null)
+                        {
+                            firePosition = fire.position;
+                            forward = fire.forward;
+                        }
+
+                        else
+                        {
+                            firePosition = trans.position;
+                            forward = trans.forward;
+                        }
+
+                        Debug.DrawRay(fire.position, fire.forward * 100, Color.yellow);
+
+                        GameObject go = Instantiate(bullet, firePosition, Quaternion.identity) as GameObject;
+                        go.transform.up = forward;
+
                     }
-
-                    else
-                    {
-                        firePosition = trans.position;
-                        forward = trans.forward;
-                    }
-
-                    Debug.DrawRay(fire.position, fire.forward * 100, Color.yellow);
-
-                    GameObject go = Instantiate(bullet, firePosition, Quaternion.identity) as GameObject;
-                    go.transform.up = forward;
-
                 }
             }
         }
-    }
 
-    void OnTriggerEnter()
-    {
-        life -= 1;
+        void OnTriggerEnter()
+        {
+            life -= 1;
+        }
     }
 }
