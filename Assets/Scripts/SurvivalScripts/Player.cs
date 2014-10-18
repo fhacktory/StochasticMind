@@ -23,6 +23,7 @@ public class Player : MonoBehaviour {
     private Transform           trans;
     private CharacterController controller;
     private Light               lightComponent;
+    private Battery             battery;
     private DoorMgr             doorManager;
     private bool                isHitting;
 	// Use this for initialization
@@ -31,6 +32,7 @@ public class Player : MonoBehaviour {
         controller = GetComponent<CharacterController>();
         controller.SimpleMove(new Vector3(0, 0, 0));
         lightComponent = trans.GetChild(0).GetComponent<Light>();
+        battery = GetComponent<Battery>();
         doorManager = GameObject.FindGameObjectWithTag("Maze").GetComponent<DoorMgr>();
 	}
 	
@@ -58,7 +60,10 @@ public class Player : MonoBehaviour {
             trans.rotation = Quaternion.Lerp(trans.rotation, Quaternion.Euler(0, 90, 0), Time.deltaTime * RotateSpeed);
         }
         if (Input.GetKeyDown(Light))
+        {
             lightComponent.enabled = !lightComponent.enabled;
+            battery.activated = !battery.activated;
+        }
     }
 
     void OnGUI()
