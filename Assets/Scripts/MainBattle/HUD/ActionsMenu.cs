@@ -5,9 +5,11 @@ public class ActionsMenu : MonoBehaviour
 {
     public Font textFont;
 
+    private EnemyAttributes     enemyAttributes;
+
 	void Start ()
 	{
-	
+        enemyAttributes = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyAttributes>();
 	}
 	
 	void Update ()
@@ -26,7 +28,7 @@ public class ActionsMenu : MonoBehaviour
 
         if (GUI.Button(new Rect(Screen.width * 0.1f, Screen.height * 0.85f,
                             Screen.width * 0.2f, Screen.height * 0.1f), "Attack", buttonStyle))
-            Application.LoadLevel(0);
+            enemyAttributes.life -= 1;
 
         buttonStyle.normal.textColor = new Color(0.1f, 0.4f, 0.5f);
 
