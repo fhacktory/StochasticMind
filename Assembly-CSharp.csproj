@@ -177,12 +177,9 @@
      <Compile Include="Assets\Scripts\PointAndClick\Camera\CameraController.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Item\CatchableItem.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Item\ClickableItem.cs" />
-<<<<<<< HEAD
      <Compile Include="Assets\Scripts\PointAndClick\Item\MouseAI.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Randomizer\MapRandomizer.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Timer\Timer.cs" />
-=======
-     <Compile Include="Assets\Scripts\PointAndClick\Randomizer\MapRandomizer.cs" />
      <Compile Include="Assets\Scripts\ShootEmUp\Bullet.cs" />
      <Compile Include="Assets\Scripts\ShootEmUp\EnableWave.cs" />
      <Compile Include="Assets\Scripts\ShootEmUp\Enemy.cs" />
@@ -190,7 +187,6 @@
      <Compile Include="Assets\Scripts\ShootEmUp\Player.cs" />
      <Compile Include="Assets\Scripts\ShootEmUp\WavefHACKtory.cs" />
      <Compile Include="Assets\Scripts\SurvivalScripts\Battery.cs" />
->>>>>>> 36a5388b862726446247a5566cc5c2ae6370f664
      <Compile Include="Assets\Scripts\SurvivalScripts\DoorMgr.cs" />
      <Compile Include="Assets\Scripts\SurvivalScripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\SurvivalScripts\Player.cs" />
