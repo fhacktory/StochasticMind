@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{B843C3C9-58DD-B5D1-88FA-8D842C8EEA89}</ProjectGuid>
+	<ProjectGuid>{FA6200A8-0D25-3598-8D98-6C754727D01B}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_4_5_3;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_3;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -174,15 +174,13 @@
      <Compile Include="Assets\Scripts\MenuScripts\ExitApp.cs" />
      <Compile Include="Assets\Scripts\MenuScripts\LaunchStory.cs" />
      <Compile Include="Assets\Scripts\MenuScripts\Rescale.cs" />
+     <Compile Include="Assets\Scripts\PlatformerMultiDimensional\Player.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Camera\CameraController.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Item\CatchableItem.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Item\ClickableItem.cs" />
-<<<<<<< HEAD
      <Compile Include="Assets\Scripts\PointAndClick\Item\MouseAI.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Randomizer\MapRandomizer.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Timer\Timer.cs" />
-=======
-     <Compile Include="Assets\Scripts\PointAndClick\Randomizer\MapRandomizer.cs" />
      <Compile Include="Assets\Scripts\ShootEmUp\Bullet.cs" />
      <Compile Include="Assets\Scripts\ShootEmUp\EnableWave.cs" />
      <Compile Include="Assets\Scripts\ShootEmUp\Enemy.cs" />
@@ -190,7 +188,6 @@
      <Compile Include="Assets\Scripts\ShootEmUp\Player.cs" />
      <Compile Include="Assets\Scripts\ShootEmUp\WavefHACKtory.cs" />
      <Compile Include="Assets\Scripts\SurvivalScripts\Battery.cs" />
->>>>>>> 36a5388b862726446247a5566cc5c2ae6370f664
      <Compile Include="Assets\Scripts\SurvivalScripts\DoorMgr.cs" />
      <Compile Include="Assets\Scripts\SurvivalScripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\SurvivalScripts\Player.cs" />
@@ -232,7 +229,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{D1F1B521-237A-455D-0F24-D8C4AEA213FD}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{71B129F7-95DA-713D-7854-CCFEDD602452}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
