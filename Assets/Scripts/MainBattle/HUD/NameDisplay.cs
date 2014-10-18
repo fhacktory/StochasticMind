@@ -27,12 +27,12 @@ public class NameDisplay : MonoBehaviour
         labelStyle.fontSize = (int)(Screen.width * 0.04f);
         labelStyle.normal.textColor = new Color(0.4f, 0.1f, 0.6f);
 
-        GUI.Label(new Rect(Screen.width * 0.26f, Screen.height * 0.02f,
+        GUI.Label(new Rect(Screen.width * 0.25f, Screen.height * 0.02f,
             Screen.width * 0.25f, Screen.height * 0.25f), enemyAttributes.name, labelStyle);
 
-        labelStyle.normal.textColor = new Color(0.1f, 0.4f, 0.0f);
+        labelStyle.normal.textColor = new Color(0.1f, 0.4f, 0.3f);
 
-        GUI.Label(new Rect(Screen.width * 0.77f, Screen.height * 0.5f,
+        GUI.Label(new Rect(Screen.width * 0.57f, Screen.height * 0.6f,
             Screen.width * 0.25f, Screen.height * 0.25f), playerAttributes.name, labelStyle);
     }
 }
