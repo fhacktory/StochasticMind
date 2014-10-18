@@ -169,19 +169,26 @@
      <Compile Include="Assets\Scripts\MainBattle\HUD\ActionsMenu.cs" />
      <Compile Include="Assets\Scripts\MainBattle\HUD\NameDisplay.cs" />
      <Compile Include="Assets\Scripts\MainBattle\Player\PlayerAttributes.cs" />
+     <Compile Include="Assets\Scripts\MainBattle\SuperObject.cs" />
      <Compile Include="Assets\Scripts\MenuScripts\ExitApp.cs" />
      <Compile Include="Assets\Scripts\MenuScripts\LaunchStory.cs" />
      <Compile Include="Assets\Scripts\MenuScripts\Rescale.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Camera\CameraController.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Item\CatchableItem.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Item\ClickableItem.cs" />
+<<<<<<< HEAD
      <Compile Include="Assets\Scripts\PointAndClick\Item\MouseAI.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Randomizer\MapRandomizer.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Timer\Timer.cs" />
+=======
+     <Compile Include="Assets\Scripts\PointAndClick\Randomizer\MapRandomizer.cs" />
+     <Compile Include="Assets\Scripts\SurvivalScripts\Battery.cs" />
+>>>>>>> 36a5388b862726446247a5566cc5c2ae6370f664
      <Compile Include="Assets\Scripts\SurvivalScripts\DoorMgr.cs" />
      <Compile Include="Assets\Scripts\SurvivalScripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\SurvivalScripts\Player.cs" />
      <Compile Include="Assets\Scripts\SurvivalScripts\SpawnMgr.cs" />
+     <Compile Include="Assets\Scripts\SurvivalScripts\Win.cs" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
@@ -216,7 +223,11 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
      <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
+<<<<<<< HEAD
  <HintPath>C:/Users/Metalbob/Documents/StochasticMindLol/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+=======
+ <HintPath>C:/Users/pc/Documents/StochasticMind/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+>>>>>>> 36a5388b862726446247a5566cc5c2ae6370f664
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
