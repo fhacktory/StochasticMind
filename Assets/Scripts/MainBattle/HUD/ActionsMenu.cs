@@ -44,7 +44,7 @@ public class ActionsMenu : MonoBehaviour
         buttonStyle.normal.textColor = new Color(0.8f, 0.8f, 0.0f);
 
         if (GUI.Button(new Rect(Screen.width * 0.7f, Screen.height * 0.85f,
-                            Screen.width * 0.2f, Screen.height * 0.1f), "Item", buttonStyle))
+                            Screen.width * 0.2f, Screen.height * 0.1f), "Hunt", buttonStyle))
         {
             var enemy = GameObject.FindGameObjectWithTag("Enemy");
             var player = GameObject.FindGameObjectWithTag("Player");
