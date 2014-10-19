@@ -18,6 +18,8 @@ namespace ShootEmUp
         private float XAxisSpeed = 2.0f;
         [SerializeField]
         private GameObject bullet;
+        [SerializeField]
+        private int TriggersToWin = 3;
 
 
         [SerializeField]
@@ -82,15 +84,19 @@ namespace ShootEmUp
             }
 
             if (life <= 0)
-            {
                 Destroy(trans.root.gameObject);
-            }
+            if (TriggersToWin <= 0)
+                Debug.Log("PLAYER POINT CSSSSS");
+            
         }
 
         void OnTriggerEnter(Collider hit)
         {
-            if (hit.transform.root.tag == "Terrain")
+            if (hit.tag == "Terrain")
                 Destroy(gameObject);
+            else if (hit.tag == "TerrainTrigger")
+                TriggersToWin -= 1;
+
             else
                 life -= 1;
         }

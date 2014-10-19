@@ -22,6 +22,7 @@ public class Bullet : MonoBehaviour {
 
     void OnTriggerEnter(Collider hit)
     {
-        Destroy(gameObject);
+        if (hit.tag != "TerrainTrigger")
+            Destroy(gameObject);
     }
 }
