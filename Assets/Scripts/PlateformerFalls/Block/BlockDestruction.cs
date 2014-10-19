@@ -19,7 +19,7 @@ public class BlockDestruction : MonoBehaviour
         }
 
         if ("Walls" == hit.collider.tag ||
-            "Enemy" == hit.collider.tag)
+            "Block" == hit.collider.tag)
         {
             Destroy(gameObject);
         }

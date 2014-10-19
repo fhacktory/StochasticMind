@@ -7,7 +7,6 @@ public class Win : MonoBehaviour {
     {
         if (hit.tag == "Player")
         {
-            Debug.Log("AZERTY");
             GameManager.SendResult(new GameResult(0, 0, 0));
             var enemy = GameObject.FindGameObjectWithTag("Enemy");
             var player = GameObject.FindGameObjectWithTag("Player");

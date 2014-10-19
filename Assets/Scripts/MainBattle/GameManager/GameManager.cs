@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour {
 
     public static void SendResult(GameResult result)
     {
-        Debug.Log("Receive result");
+        GameManager.playerTurn = !GameManager.playerTurn;
         GameManager.player += result;
     }
 }
