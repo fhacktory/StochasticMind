@@ -85,7 +85,6 @@ namespace ShootEmUp
 
             if (life <= 0)
             {
-                Destroy(trans.root.gameObject);
                 GameManager.SendResult(new GameResult(0, 0, 0));
                 var enemy = GameObject.FindGameObjectWithTag("Enemy");
                 var player = GameObject.FindGameObjectWithTag("Player");
@@ -107,11 +106,18 @@ namespace ShootEmUp
         void OnTriggerEnter(Collider hit)
         {
             if (hit.tag == "Terrain")
-                Destroy(gameObject);
+            {
+                GameManager.SendResult(new GameResult(0, 0, 0));
+                var enemy = GameObject.FindGameObjectWithTag("Enemy");
+                var player = GameObject.FindGameObjectWithTag("Player");
+                enemy.GetComponent<EnemyAttributes>().inBattle = true;
+                player.GetComponent<PlayerAttributes>().inBattle = true;
+                Application.LoadLevel(1);
+            }
             else if (hit.tag == "TerrainTrigger")
                 TriggersToWin -= 1;
 
-            else
+            else if (life > 0)
                 life -= 1;
         }
 

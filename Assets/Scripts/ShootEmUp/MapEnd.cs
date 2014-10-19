@@ -16,5 +16,6 @@ public class MapEnd : MonoBehaviour {
     void OnTriggerEnter(Collider hit)
     {
         Destroy(hit.gameObject);
+
     }
 }

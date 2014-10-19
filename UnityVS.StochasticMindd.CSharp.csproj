@@ -51,6 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Destroyed_city_FREE\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Destroyed_city_FREE\Standard Assets\Water (Pro Only)\Sources\Scripts\Water.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
@@ -170,20 +172,33 @@
     <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
     <Compile Include="Assets\Scripts\MainBattle\Enemy\EnemyAttributes.cs" />
+    <Compile Include="Assets\Scripts\MainBattle\GameManager\GameManager.cs" />
+    <Compile Include="Assets\Scripts\MainBattle\GameManager\GameResult.cs" />
     <Compile Include="Assets\Scripts\MainBattle\HPBars\DrawHP.cs" />
     <Compile Include="Assets\Scripts\MainBattle\HUD\ActionsMenu.cs" />
     <Compile Include="Assets\Scripts\MainBattle\HUD\NameDisplay.cs" />
+    <Compile Include="Assets\Scripts\MainBattle\Initializer\Initializer.cs" />
     <Compile Include="Assets\Scripts\MainBattle\Player\PlayerAttributes.cs" />
-    <Compile Include="Assets\Scripts\MainBattle\SuperObject.cs" />
     <Compile Include="Assets\Scripts\MenuScripts\ExitApp.cs" />
     <Compile Include="Assets\Scripts\MenuScripts\LaunchStory.cs" />
     <Compile Include="Assets\Scripts\MenuScripts\Rescale.cs" />
+    <Compile Include="Assets\Scripts\PlateformRotator\OwlMovements.cs" />
+    <Compile Include="Assets\Scripts\PlatformerMultiDimensional\CameraManagement.cs" />
+    <Compile Include="Assets\Scripts\PlatformerMultiDimensional\Player2D.cs" />
+    <Compile Include="Assets\Scripts\PlatformerMultiDimensional\Player3D.cs" />
+    <Compile Include="Assets\Scripts\PlatformerMultiDimensional\PlayerContainer.cs" />
+    <Compile Include="Assets\Scripts\PlatformerMultiDimensional\SwitchMode.cs" />
+    <Compile Include="Assets\Scripts\PlatformerMultiDimensional\Tuto2D.cs" />
     <Compile Include="Assets\Scripts\PointAndClick\Camera\CameraController.cs" />
     <Compile Include="Assets\Scripts\PointAndClick\Item\CatchableItem.cs" />
     <Compile Include="Assets\Scripts\PointAndClick\Item\ClickableItem.cs" />
     <Compile Include="Assets\Scripts\PointAndClick\Item\MouseAI.cs" />
     <Compile Include="Assets\Scripts\PointAndClick\Randomizer\MapRandomizer.cs" />
     <Compile Include="Assets\Scripts\PointAndClick\Timer\Timer.cs" />
+    <Compile Include="Assets\Scripts\RailShooter\MathUtils.cs" />
+    <Compile Include="Assets\Scripts\RailShooter\Player.cs" />
+    <Compile Include="Assets\Scripts\RailShooter\SplineController.cs" />
+    <Compile Include="Assets\Scripts\RailShooter\SplineInterpolator.cs" />
     <Compile Include="Assets\Scripts\ShootEmUp\Bullet.cs" />
     <Compile Include="Assets\Scripts\ShootEmUp\EnableWave.cs" />
     <Compile Include="Assets\Scripts\ShootEmUp\Enemy.cs" />
@@ -198,6 +213,9 @@
     <Compile Include="Assets\Scripts\SurvivalScripts\Player.cs" />
     <Compile Include="Assets\Scripts\SurvivalScripts\SpawnMgr.cs" />
     <Compile Include="Assets\Scripts\SurvivalScripts\Win.cs" />
+    <None Include="Assets\Destroyed_city_FREE\Destroyed_city_FREE_Info.txt" />
+    <None Include="Assets\Destroyed_city_FREE\Shaders\AlphaTest-DiffuseDoubleSide.shader" />
+    <None Include="Assets\Destroyed_city_FREE\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
     <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
