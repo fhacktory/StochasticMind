@@ -18,7 +18,6 @@ public class CatchableItem : MonoBehaviour {
             Ray ray = Camera.main.ScreenPointToRay(pos);
             Debug.DrawRay(ray.origin, ray.direction * 10, Color.yellow);
             RaycastHit hit = new RaycastHit();
-            Debug.Log(pos);
 
             if (Physics.Raycast(ray, out hit, 50, 1 << 8))
                 transf.position = new Vector3(hit.point.x, 1, hit.point.z);
