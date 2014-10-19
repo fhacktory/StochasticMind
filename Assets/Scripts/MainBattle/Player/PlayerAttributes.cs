@@ -16,7 +16,8 @@ public class PlayerAttributes : MonoBehaviour
 	
 	void Update ()
 	{
-	
+        if (0 == life)
+            Application.LoadLevel(8);
 	}
 
     void OnGUI()

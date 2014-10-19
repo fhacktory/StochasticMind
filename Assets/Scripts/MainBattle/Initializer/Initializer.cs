@@ -14,7 +14,7 @@ public class Initializer : MonoBehaviour {
             DontDestroyOnLoad(Instantiate(characters));
 	}
 	
-	void Update () {
-	
+	void Update ()
+    {
 	}
 }

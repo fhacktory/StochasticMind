@@ -25,9 +25,23 @@ namespace RailShooter
             spentTime += Time.deltaTime;
 
             if (PointsForWin <= 0)
-                Debug.Log("OnAGaGneIssI");
+            {
+                GameManager.SendResult(new GameResult(0, 0, 1));
+                var enemy = GameObject.FindGameObjectWithTag("Enemy");
+                var player = GameObject.FindGameObjectWithTag("Player");
+                enemy.GetComponent<EnemyAttributes>().inBattle = true;
+                player.GetComponent<PlayerAttributes>().inBattle = true;
+                Application.LoadLevel(1);
+            }
             if (spentTime >= maxTime)
-                Debug.Log("ONAERDUUUUUUUUUUUUUUUUUUUUUU");
+            {
+                GameManager.SendResult(new GameResult(0, 0, 0));
+                var enemy = GameObject.FindGameObjectWithTag("Enemy");
+                var player = GameObject.FindGameObjectWithTag("Player");
+                enemy.GetComponent<EnemyAttributes>().inBattle = true;
+                player.GetComponent<PlayerAttributes>().inBattle = true;
+                Application.LoadLevel(1);
+            }
 
             if (Input.GetMouseButtonDown(0))
             {

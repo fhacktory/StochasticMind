@@ -25,7 +25,7 @@ public class ActionsMenu : MonoBehaviour
                 enemy.GetComponent<EnemyAttributes>().inBattle = false;
                 player.GetComponent<PlayerAttributes>().inBattle = false;
                 enemyTurnTimer = 0.0f;
-                var randomNum = Random.Range(5, 7);
+                var randomNum = Random.Range(6, 8);
                 Application.LoadLevel(randomNum);
             }
         }
@@ -48,7 +48,7 @@ public class ActionsMenu : MonoBehaviour
                 var player = GameObject.FindGameObjectWithTag("Player");
                 enemyAttributes.inBattle = false;
                 player.GetComponent<PlayerAttributes>().inBattle = false;
-                Application.LoadLevel(Random.Range(3, 5));
+                Application.LoadLevel(Random.Range(3, 6));
             }
 
             buttonStyle.normal.textColor = new Color(0.8f, 0.8f, 0.0f);
