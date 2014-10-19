@@ -4,7 +4,7 @@ using System.Collections;
 public class EnemyAttributes : MonoBehaviour
 {
 	public int	    life;
-    public string   name;
+    public string   enemyName;
     public Texture  owlTexture;
     public bool     inBattle = true;
 

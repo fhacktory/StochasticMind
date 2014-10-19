@@ -8,19 +8,19 @@ public class Battery : MonoBehaviour {
     public float    maxLvl;
 
     private float   energyLvl;
-    private Light   light;
+    private Light   torch;
 	// Use this for initialization
 	void Start () {
         activated = true;
         energyLvl = maxLvl;
-        light = transform.GetChild(0).GetComponent<Light>();
+        torch = transform.GetChild(0).GetComponent<Light>();
         StartCoroutine("DecreaseEnergyLevel");
 	}
 	
 	// Update is called once per frame
 	void Update () {
         if (energyLvl <= 3.5f)
-            light.intensity = energyLvl;
+            torch.intensity = energyLvl;
 
         if (energyLvl <= 0)
             activated = false;
