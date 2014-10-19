@@ -40,7 +40,7 @@ public class MouseAI : MonoBehaviour {
         GameObject nearestBush = null;
         foreach (var bush in bushes)
         {
-            var distance = Vector3.Distance(transform.position, bush.transform.position);
+            var distance = Vector3.Distance(transf.position, bush.transform.position);
             if (bush != currentBush && distance < minDistance)
             {
                 nearestBush = bush;

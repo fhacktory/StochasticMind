@@ -5,7 +5,15 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
+<<<<<<< HEAD
 	<ProjectGuid>{FA6200A8-0D25-3598-8D98-6C754727D01B}</ProjectGuid>
+=======
+<<<<<<< HEAD
+	<ProjectGuid>{C7FE4945-8518-F11E-A37F-494187CA60BF}</ProjectGuid>
+=======
+	<ProjectGuid>{FA6200A8-0D25-3598-8D98-6C754727D01B}</ProjectGuid>
+>>>>>>> c3a92b0a85964fa6779f96f5d67429ec4210e4cb
+>>>>>>> 2cc027b14df152121119bfac4de6ae7fc61c4941
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,7 +54,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\EnemyWave.cs" />
+     <Compile Include="Assets\Destroyed_city_FREE\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Destroyed_city_FREE\Standard Assets\Water (Pro Only)\Sources\Scripts\Water.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
@@ -166,32 +175,59 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
      <Compile Include="Assets\Scripts\MainBattle\Enemy\EnemyAttributes.cs" />
+     <Compile Include="Assets\Scripts\MainBattle\GameManager\GameManager.cs" />
+     <Compile Include="Assets\Scripts\MainBattle\GameManager\GameResult.cs" />
      <Compile Include="Assets\Scripts\MainBattle\HPBars\DrawHP.cs" />
      <Compile Include="Assets\Scripts\MainBattle\HUD\ActionsMenu.cs" />
      <Compile Include="Assets\Scripts\MainBattle\HUD\NameDisplay.cs" />
+     <Compile Include="Assets\Scripts\MainBattle\Initializer\Initializer.cs" />
      <Compile Include="Assets\Scripts\MainBattle\Player\PlayerAttributes.cs" />
-     <Compile Include="Assets\Scripts\MainBattle\SuperObject.cs" />
      <Compile Include="Assets\Scripts\MenuScripts\ExitApp.cs" />
      <Compile Include="Assets\Scripts\MenuScripts\LaunchStory.cs" />
      <Compile Include="Assets\Scripts\MenuScripts\Rescale.cs" />
+<<<<<<< HEAD
      <Compile Include="Assets\Scripts\PlateformerFalls\Block\BlockDestruction.cs" />
      <Compile Include="Assets\Scripts\PlateformerFalls\Block\BlockStopRotation.cs" />
      <Compile Include="Assets\Scripts\PlateformerFalls\Player\OwlLife.cs" />
      <Compile Include="Assets\Scripts\PlateformerFalls\Player\OwlMovements.cs" />
      <Compile Include="Assets\Scripts\PlateformerFalls\World\DoorTrigger.cs" />
      <Compile Include="Assets\Scripts\PlateformerFalls\World\RandomFall.cs" />
+=======
+     <Compile Include="Assets\Scripts\PlateformRotator\OwlMovements.cs" />
+<<<<<<< HEAD
+>>>>>>> 2cc027b14df152121119bfac4de6ae7fc61c4941
      <Compile Include="Assets\Scripts\PlatformerMultiDimensional\Player.cs" />
+=======
+     <Compile Include="Assets\Scripts\PlatformerMultiDimensional\CameraManagement.cs" />
+     <Compile Include="Assets\Scripts\PlatformerMultiDimensional\Player2D.cs" />
+     <Compile Include="Assets\Scripts\PlatformerMultiDimensional\Player3D.cs" />
+     <Compile Include="Assets\Scripts\PlatformerMultiDimensional\PlayerContainer.cs" />
+     <Compile Include="Assets\Scripts\PlatformerMultiDimensional\SwitchMode.cs" />
+     <Compile Include="Assets\Scripts\PlatformerMultiDimensional\Tuto2D.cs" />
+>>>>>>> c3a92b0a85964fa6779f96f5d67429ec4210e4cb
      <Compile Include="Assets\Scripts\PointAndClick\Camera\CameraController.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Item\CatchableItem.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Item\ClickableItem.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Item\MouseAI.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Randomizer\MapRandomizer.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Timer\Timer.cs" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+     <Compile Include="Assets\Scripts\RailShooter\MathUtils.cs" />
+     <Compile Include="Assets\Scripts\RailShooter\Player.cs" />
+     <Compile Include="Assets\Scripts\RailShooter\SplineController.cs" />
+     <Compile Include="Assets\Scripts\RailShooter\SplineInterpolator.cs" />
+=======
+>>>>>>> c3a92b0a85964fa6779f96f5d67429ec4210e4cb
+>>>>>>> 2cc027b14df152121119bfac4de6ae7fc61c4941
      <Compile Include="Assets\Scripts\ShootEmUp\Bullet.cs" />
      <Compile Include="Assets\Scripts\ShootEmUp\EnableWave.cs" />
      <Compile Include="Assets\Scripts\ShootEmUp\Enemy.cs" />
+     <Compile Include="Assets\Scripts\ShootEmUp\EnemyWave.cs" />
      <Compile Include="Assets\Scripts\ShootEmUp\MapEnd.cs" />
      <Compile Include="Assets\Scripts\ShootEmUp\Player.cs" />
+     <Compile Include="Assets\Scripts\ShootEmUp\TerrainFinished.cs" />
      <Compile Include="Assets\Scripts\ShootEmUp\WavefHACKtory.cs" />
      <Compile Include="Assets\Scripts\SurvivalScripts\Battery.cs" />
      <Compile Include="Assets\Scripts\SurvivalScripts\DoorMgr.cs" />
@@ -203,6 +239,7 @@
      <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+     <None Include="Assets\Destroyed_city_FREE\Destroyed_city_FREE_Info.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
@@ -224,16 +261,26 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
      <None Include="Assets\NGUI\Examples\Other\English.txt" />
      <None Include="Assets\NGUI\Examples\Other\French.txt" />
+     <None Include="Assets\Destroyed_city_FREE\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
      <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\Destroyed_city_FREE\Shaders\AlphaTest-DiffuseDoubleSide.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
      <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
+<<<<<<< HEAD
  <HintPath>C:/Users/Natacha/Desktop/Git/StochasticMind/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+=======
+<<<<<<< HEAD
+ <HintPath>C:/Users/boraccino/Documents/StochasticMindd/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+=======
+ <HintPath>C:/Users/pc/Documents/StochasticMind/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+>>>>>>> c3a92b0a85964fa6779f96f5d67429ec4210e4cb
+>>>>>>> 2cc027b14df152121119bfac4de6ae7fc61c4941
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
