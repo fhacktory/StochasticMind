@@ -1,11 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Win : MonoBehaviour {
+public class DoorTrigger : MonoBehaviour
+{
 
-	void OnTriggerEnter(Collider hit)
+	void Start ()
     {
-        if (hit.tag == "Player")
+	
+	}
+	
+	void Update ()
+    {
+	
+	}
+
+    void OnTriggerEnter (Collider hit)
+    {
+        if ("Player" ==  hit.tag)
         {
             GameManager.SendResult(new GameResult(0, 0, 0));
             var enemy = GameObject.FindGameObjectWithTag("Enemy");

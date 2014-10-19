@@ -11,7 +11,7 @@ public class PlayerAttributes : MonoBehaviour
 
 	void Start ()
 	{
-	
+	    playerName = "Leon";
 	}
 	
 	void Update ()

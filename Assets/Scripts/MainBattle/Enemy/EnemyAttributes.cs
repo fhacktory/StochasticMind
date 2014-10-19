@@ -10,7 +10,7 @@ public class EnemyAttributes : MonoBehaviour
 
 	void Start ()
 	{
-	    
+        enemyName = "Noel";
 	}
 	
 	void Update ()

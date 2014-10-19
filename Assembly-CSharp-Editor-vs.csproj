@@ -5,7 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
+<<<<<<< HEAD
 	<ProjectGuid>{BBE4FF61-D76E-E232-4E28-06A2E8A03B86}</ProjectGuid>
+=======
+	<ProjectGuid>{D42292EB-F63C-0BF9-8CF6-60EA518AB3AD}</ProjectGuid>
+>>>>>>> be656f43c621be57ab2fd33918a32ca34825a05b
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -117,19 +121,23 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
      <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
+<<<<<<< HEAD
  <HintPath>C:/Users/boraccino/Documents/StochasticMindd/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+=======
+ <HintPath>C:/Users/Natacha/Desktop/Git/StochasticMind/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+>>>>>>> be656f43c621be57ab2fd33918a32ca34825a05b
  </Reference>
  <Reference Include="Assembly-UnityScript">
- <HintPath>C:/Users/boraccino/Documents/StochasticMindd/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>C:/Users/Natacha/Desktop/Git/StochasticMind/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>C:/Users/boraccino/Documents/StochasticMindd/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+ <HintPath>C:/Users/Natacha/Desktop/Git/StochasticMind/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
  </Reference>
  <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
- <HintPath>C:/Users/boraccino/Documents/StochasticMindd/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+ <HintPath>C:/Users/Natacha/Desktop/Git/StochasticMind/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
  </Reference>
  <Reference Include="UnityVS.VersionSpecific">
- <HintPath>C:/Users/boraccino/Documents/StochasticMindd/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
+ <HintPath>C:/Users/Natacha/Desktop/Git/StochasticMind/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -137,7 +145,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">
+<<<<<<< HEAD
       <Project>{C7FE4945-8518-F11E-A37F-494187CA60BF}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+=======
+      <Project>{FA6200A8-0D25-3598-8D98-6C754727D01B}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+>>>>>>> be656f43c621be57ab2fd33918a32ca34825a05b
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

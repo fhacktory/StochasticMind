@@ -51,6 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Destroyed_city_FREE\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Destroyed_city_FREE\Standard Assets\Water (Pro Only)\Sources\Scripts\Water.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
@@ -180,7 +182,12 @@
     <Compile Include="Assets\Scripts\MenuScripts\ExitApp.cs" />
     <Compile Include="Assets\Scripts\MenuScripts\LaunchStory.cs" />
     <Compile Include="Assets\Scripts\MenuScripts\Rescale.cs" />
-    <Compile Include="Assets\Scripts\PlateformRotator\OwlMovements.cs" />
+    <Compile Include="Assets\Scripts\PlateformerFalls\Block\BlockDestruction.cs" />
+    <Compile Include="Assets\Scripts\PlateformerFalls\Block\BlockStopRotation.cs" />
+    <Compile Include="Assets\Scripts\PlateformerFalls\Player\OwlLife.cs" />
+    <Compile Include="Assets\Scripts\PlateformerFalls\Player\OwlMovements.cs" />
+    <Compile Include="Assets\Scripts\PlateformerFalls\World\DoorTrigger.cs" />
+    <Compile Include="Assets\Scripts\PlateformerFalls\World\RandomFall.cs" />
     <Compile Include="Assets\Scripts\PlatformerMultiDimensional\CameraManagement.cs" />
     <Compile Include="Assets\Scripts\PlatformerMultiDimensional\Player2D.cs" />
     <Compile Include="Assets\Scripts\PlatformerMultiDimensional\Player3D.cs" />
@@ -193,6 +200,10 @@
     <Compile Include="Assets\Scripts\PointAndClick\Item\MouseAI.cs" />
     <Compile Include="Assets\Scripts\PointAndClick\Randomizer\MapRandomizer.cs" />
     <Compile Include="Assets\Scripts\PointAndClick\Timer\Timer.cs" />
+    <Compile Include="Assets\Scripts\RailShooter\MathUtils.cs" />
+    <Compile Include="Assets\Scripts\RailShooter\Player.cs" />
+    <Compile Include="Assets\Scripts\RailShooter\SplineController.cs" />
+    <Compile Include="Assets\Scripts\RailShooter\SplineInterpolator.cs" />
     <Compile Include="Assets\Scripts\ShootEmUp\Bullet.cs" />
     <Compile Include="Assets\Scripts\ShootEmUp\EnableWave.cs" />
     <Compile Include="Assets\Scripts\ShootEmUp\Enemy.cs" />
@@ -207,6 +218,9 @@
     <Compile Include="Assets\Scripts\SurvivalScripts\Player.cs" />
     <Compile Include="Assets\Scripts\SurvivalScripts\SpawnMgr.cs" />
     <Compile Include="Assets\Scripts\SurvivalScripts\Win.cs" />
+    <None Include="Assets\Destroyed_city_FREE\Destroyed_city_FREE_Info.txt" />
+    <None Include="Assets\Destroyed_city_FREE\Shaders\AlphaTest-DiffuseDoubleSide.shader" />
+    <None Include="Assets\Destroyed_city_FREE\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
     <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
