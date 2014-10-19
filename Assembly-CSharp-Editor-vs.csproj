@@ -5,15 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-<<<<<<< HEAD
 	<ProjectGuid>{D42292EB-F63C-0BF9-8CF6-60EA518AB3AD}</ProjectGuid>
-=======
-<<<<<<< HEAD
-	<ProjectGuid>{BBE4FF61-D76E-E232-4E28-06A2E8A03B86}</ProjectGuid>
-=======
-	<ProjectGuid>{846844E9-37AB-72F5-6A0A-1C5373F6EAF8}</ProjectGuid>
->>>>>>> 4941455adc4784601c177d2006a2510c69da6d2b
->>>>>>> 0b428ea0634bb8a68218b11350a4fa99b1a7e273
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -122,63 +114,24 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
      <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
-<<<<<<< HEAD
  <HintPath>C:/Users/pc/Documents/StochasticMind/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
-=======
-<<<<<<< HEAD
- <HintPath>C:/Users/Metalbob/Documents/StochasticMindLol/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
-=======
-<<<<<<< HEAD
- <HintPath>C:/Users/boraccino/Documents/StochasticMindd/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
-=======
-<<<<<<< HEAD
- <HintPath>C:/Users/Metalbob/Documents/StochasticMindLol/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
-=======
- <HintPath>C:/Users/pc/Documents/StochasticMind/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
->>>>>>> 36a5388b862726446247a5566cc5c2ae6370f664
->>>>>>> 4941455adc4784601c177d2006a2510c69da6d2b
->>>>>>> aa45402cb5f677954bd8cff600398ab992710cb2
->>>>>>> 0b428ea0634bb8a68218b11350a4fa99b1a7e273
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
-<<<<<<< HEAD
- <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>C:/Users/boraccino/Documents/StochasticMindd/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
- </Reference>
- <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
- <HintPath>C:/Users/boraccino/Documents/StochasticMindd/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
- </Reference>
  <Reference Include="UnityVS.VersionSpecific">
- <HintPath>C:/Users/boraccino/Documents/StochasticMindd/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
-=======
- <Reference Include="UnityVS.VersionSpecific">
- <HintPath>C:/Users/Metalbob/Documents/StochasticMindLol/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
+ <HintPath>C:/Users/pc/Documents/StochasticMind/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
  </Reference>
  <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>C:/Users/Metalbob/Documents/StochasticMindLol/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+ <HintPath>C:/Users/pc/Documents/StochasticMind/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
  </Reference>
  <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
-<<<<<<< HEAD
- <HintPath>C:/Users/Metalbob/Documents/StochasticMindLol/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
-=======
  <HintPath>C:/Users/pc/Documents/StochasticMind/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
->>>>>>> 4941455adc4784601c177d2006a2510c69da6d2b
->>>>>>> aa45402cb5f677954bd8cff600398ab992710cb2
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">
-<<<<<<< HEAD
       <Project>{FA6200A8-0D25-3598-8D98-6C754727D01B}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
-=======
-<<<<<<< HEAD
-      <Project>{C7FE4945-8518-F11E-A37F-494187CA60BF}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
-=======
-      <Project>{B843C3C9-58DD-B5D1-88FA-8D842C8EEA89}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
->>>>>>> 4941455adc4784601c177d2006a2510c69da6d2b
->>>>>>> 0b428ea0634bb8a68218b11350a4fa99b1a7e273
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

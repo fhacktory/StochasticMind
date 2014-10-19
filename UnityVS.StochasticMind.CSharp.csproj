@@ -179,7 +179,12 @@
     <Compile Include="Assets\Scripts\MenuScripts\ExitApp.cs" />
     <Compile Include="Assets\Scripts\MenuScripts\LaunchStory.cs" />
     <Compile Include="Assets\Scripts\MenuScripts\Rescale.cs" />
-    <Compile Include="Assets\Scripts\PlatformerMultiDimensional\Player.cs" />
+    <Compile Include="Assets\Scripts\PlatformerMultiDimensional\CameraManagement.cs" />
+    <Compile Include="Assets\Scripts\PlatformerMultiDimensional\Player2D.cs" />
+    <Compile Include="Assets\Scripts\PlatformerMultiDimensional\Player3D.cs" />
+    <Compile Include="Assets\Scripts\PlatformerMultiDimensional\PlayerContainer.cs" />
+    <Compile Include="Assets\Scripts\PlatformerMultiDimensional\SwitchMode.cs" />
+    <Compile Include="Assets\Scripts\PlatformerMultiDimensional\Tuto2D.cs" />
     <Compile Include="Assets\Scripts\PointAndClick\Camera\CameraController.cs" />
     <Compile Include="Assets\Scripts\PointAndClick\Item\CatchableItem.cs" />
     <Compile Include="Assets\Scripts\PointAndClick\Item\ClickableItem.cs" />

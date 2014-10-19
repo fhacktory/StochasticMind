@@ -5,15 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-<<<<<<< HEAD
 	<ProjectGuid>{71B129F7-95DA-713D-7854-CCFEDD602452}</ProjectGuid>
-=======
-<<<<<<< HEAD
-	<ProjectGuid>{090792EB-B51C-045D-CFF9-0E66E5478521}</ProjectGuid>
-=======
-	<ProjectGuid>{D1F1B521-237A-455D-0F24-D8C4AEA213FD}</ProjectGuid>
->>>>>>> 4941455adc4784601c177d2006a2510c69da6d2b
->>>>>>> 0b428ea0634bb8a68218b11350a4fa99b1a7e273
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
