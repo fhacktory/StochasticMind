@@ -28,7 +28,8 @@ public class PlayerAttributes : MonoBehaviour
 
     public static PlayerAttributes operator+(PlayerAttributes player, GameResult result)
     {
-        player.life += result.life;
+        if (player.life < 5)
+            player.life += result.life;
         player.defence += result.defence;
         GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyAttributes>().life -= result.damages;
 

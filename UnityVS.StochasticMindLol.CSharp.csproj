@@ -51,7 +51,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\EnemyWave.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
@@ -182,6 +181,8 @@
     <Compile Include="Assets\Scripts\MenuScripts\ExitApp.cs" />
     <Compile Include="Assets\Scripts\MenuScripts\LaunchStory.cs" />
     <Compile Include="Assets\Scripts\MenuScripts\Rescale.cs" />
+    <Compile Include="Assets\Scripts\PlateformRotator\OwlMovements.cs" />
+    <Compile Include="Assets\Scripts\PlatformerMultiDimensional\Player.cs" />
     <Compile Include="Assets\Scripts\PointAndClick\Camera\CameraController.cs" />
     <Compile Include="Assets\Scripts\PointAndClick\Item\CatchableItem.cs" />
     <Compile Include="Assets\Scripts\PointAndClick\Item\ClickableItem.cs" />
@@ -191,8 +192,10 @@
     <Compile Include="Assets\Scripts\ShootEmUp\Bullet.cs" />
     <Compile Include="Assets\Scripts\ShootEmUp\EnableWave.cs" />
     <Compile Include="Assets\Scripts\ShootEmUp\Enemy.cs" />
+    <Compile Include="Assets\Scripts\ShootEmUp\EnemyWave.cs" />
     <Compile Include="Assets\Scripts\ShootEmUp\MapEnd.cs" />
     <Compile Include="Assets\Scripts\ShootEmUp\Player.cs" />
+    <Compile Include="Assets\Scripts\ShootEmUp\TerrainFinished.cs" />
     <Compile Include="Assets\Scripts\ShootEmUp\WavefHACKtory.cs" />
     <Compile Include="Assets\Scripts\SurvivalScripts\Battery.cs" />
     <Compile Include="Assets\Scripts\SurvivalScripts\DoorMgr.cs" />
