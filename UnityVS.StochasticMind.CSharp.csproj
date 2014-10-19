@@ -194,6 +194,7 @@
     <Compile Include="Assets\Scripts\PlatformerMultiDimensional\PlayerContainer.cs" />
     <Compile Include="Assets\Scripts\PlatformerMultiDimensional\SwitchMode.cs" />
     <Compile Include="Assets\Scripts\PlatformerMultiDimensional\Tuto2D.cs" />
+    <Compile Include="Assets\Scripts\PlatformerMultiDimensional\Win.cs" />
     <Compile Include="Assets\Scripts\PointAndClick\Camera\CameraController.cs" />
     <Compile Include="Assets\Scripts\PointAndClick\Item\CatchableItem.cs" />
     <Compile Include="Assets\Scripts\PointAndClick\Item\ClickableItem.cs" />
@@ -234,7 +235,6 @@
     <None Include="Assets\NGUI\Examples\Other\English.txt" />
     <None Include="Assets\NGUI\Examples\Other\French.txt" />
     <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
-    <None Include="Assets\NGUI\ReadMe - 2.7.0.txt" />
     <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (AlphaClip).shader" />
     <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />

@@ -102,7 +102,6 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
-     <None Include="Assets\NGUI\ReadMe - 2.7.0.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
      <None Include="Assets\NGUI\Examples\Other\English.txt" />
      <None Include="Assets\NGUI\Examples\Other\French.txt" />
@@ -119,9 +118,12 @@
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/Users/boraccino/Documents/StochasticMindd/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
+<<<<<<< HEAD
+=======
  <Reference Include="Assembly-UnityScript">
  <HintPath>C:/Users/boraccino/Documents/StochasticMindd/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
+>>>>>>> 0a3d7c274ba3c05d23517c4beee4e62792a17136
  <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
  <HintPath>C:/Users/boraccino/Documents/StochasticMindd/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
  </Reference>
@@ -130,6 +132,12 @@
  </Reference>
  <Reference Include="UnityVS.VersionSpecific">
  <HintPath>C:/Users/boraccino/Documents/StochasticMindd/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityVS.VersionSpecific">
+ <HintPath>C:/Users/pc/Documents/StochasticMind/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
