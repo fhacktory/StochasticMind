@@ -122,7 +122,6 @@
     <None Include="Assets\NGUI\Examples\Other\English.txt" />
     <None Include="Assets\NGUI\Examples\Other\French.txt" />
     <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
-    <None Include="Assets\NGUI\ReadMe - 2.7.0.txt" />
     <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (AlphaClip).shader" />
     <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
