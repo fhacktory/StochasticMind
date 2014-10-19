@@ -5,7 +5,23 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
+<<<<<<< HEAD
 	<ProjectGuid>{C7FE4945-8518-F11E-A37F-494187CA60BF}</ProjectGuid>
+=======
+<<<<<<< HEAD
+	<ProjectGuid>{FA6200A8-0D25-3598-8D98-6C754727D01B}</ProjectGuid>
+=======
+<<<<<<< HEAD
+	<ProjectGuid>{FA6200A8-0D25-3598-8D98-6C754727D01B}</ProjectGuid>
+=======
+<<<<<<< HEAD
+	<ProjectGuid>{C7FE4945-8518-F11E-A37F-494187CA60BF}</ProjectGuid>
+=======
+	<ProjectGuid>{B843C3C9-58DD-B5D1-88FA-8D842C8EEA89}</ProjectGuid>
+>>>>>>> 4941455adc4784601c177d2006a2510c69da6d2b
+>>>>>>> 0b428ea0634bb8a68218b11350a4fa99b1a7e273
+>>>>>>> 7d003e122309d575cd5ba2b71661ef5166a11ca2
+>>>>>>> f58fd1bebe66b55d328d7ebeff98a3372d3527bc
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -173,12 +189,48 @@
      <Compile Include="Assets\Scripts\MenuScripts\ExitApp.cs" />
      <Compile Include="Assets\Scripts\MenuScripts\LaunchStory.cs" />
      <Compile Include="Assets\Scripts\MenuScripts\Rescale.cs" />
+<<<<<<< HEAD
+     <Compile Include="Assets\Scripts\PlateformRotator\OwlMovements.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Camera\CameraController.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Item\CatchableItem.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Item\ClickableItem.cs" />
+=======
+     <Compile Include="Assets\Scripts\PlatformerMultiDimensional\Player.cs" />
+     <Compile Include="Assets\Scripts\PointAndClick\Camera\CameraController.cs" />
+     <Compile Include="Assets\Scripts\PointAndClick\Item\CatchableItem.cs" />
+     <Compile Include="Assets\Scripts\PointAndClick\Item\ClickableItem.cs" />
+<<<<<<< HEAD
      <Compile Include="Assets\Scripts\PointAndClick\Item\MouseAI.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Randomizer\MapRandomizer.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Timer\Timer.cs" />
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+     <Compile Include="Assets\Scripts\PointAndClick\Randomizer\MapRandomizer.cs" />
+=======
+<<<<<<< HEAD
+>>>>>>> aa45402cb5f677954bd8cff600398ab992710cb2
+>>>>>>> 0b428ea0634bb8a68218b11350a4fa99b1a7e273
+>>>>>>> 7d003e122309d575cd5ba2b71661ef5166a11ca2
+     <Compile Include="Assets\Scripts\PointAndClick\Item\MouseAI.cs" />
+     <Compile Include="Assets\Scripts\PointAndClick\Randomizer\MapRandomizer.cs" />
+     <Compile Include="Assets\Scripts\PointAndClick\Timer\Timer.cs" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+     <Compile Include="Assets\Scripts\PointAndClick\Randomizer\MapRandomizer.cs" />
+>>>>>>> 4941455adc4784601c177d2006a2510c69da6d2b
+>>>>>>> aa45402cb5f677954bd8cff600398ab992710cb2
+>>>>>>> 0b428ea0634bb8a68218b11350a4fa99b1a7e273
+>>>>>>> 7d003e122309d575cd5ba2b71661ef5166a11ca2
+>>>>>>> f58fd1bebe66b55d328d7ebeff98a3372d3527bc
      <Compile Include="Assets\Scripts\ShootEmUp\Bullet.cs" />
      <Compile Include="Assets\Scripts\ShootEmUp\EnableWave.cs" />
      <Compile Include="Assets\Scripts\ShootEmUp\Enemy.cs" />
@@ -188,6 +240,20 @@
      <Compile Include="Assets\Scripts\ShootEmUp\TerrainFinished.cs" />
      <Compile Include="Assets\Scripts\ShootEmUp\WavefHACKtory.cs" />
      <Compile Include="Assets\Scripts\SurvivalScripts\Battery.cs" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 36a5388b862726446247a5566cc5c2ae6370f664
+>>>>>>> 69b15daadcbb300a6bed5752c471cf338cd10f69
+>>>>>>> aa45402cb5f677954bd8cff600398ab992710cb2
+>>>>>>> 0b428ea0634bb8a68218b11350a4fa99b1a7e273
+>>>>>>> 7d003e122309d575cd5ba2b71661ef5166a11ca2
+>>>>>>> f58fd1bebe66b55d328d7ebeff98a3372d3527bc
      <Compile Include="Assets\Scripts\SurvivalScripts\DoorMgr.cs" />
      <Compile Include="Assets\Scripts\SurvivalScripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\SurvivalScripts\Player.cs" />
@@ -229,7 +295,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+<<<<<<< HEAD
       <Project>{090792EB-B51C-045D-CFF9-0E66E5478521}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+=======
+<<<<<<< HEAD
+      <Project>{71B129F7-95DA-713D-7854-CCFEDD602452}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+=======
+<<<<<<< HEAD
+      <Project>{71B129F7-95DA-713D-7854-CCFEDD602452}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+=======
+<<<<<<< HEAD
+      <Project>{090792EB-B51C-045D-CFF9-0E66E5478521}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+=======
+      <Project>{D1F1B521-237A-455D-0F24-D8C4AEA213FD}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+>>>>>>> 4941455adc4784601c177d2006a2510c69da6d2b
+>>>>>>> 0b428ea0634bb8a68218b11350a4fa99b1a7e273
+>>>>>>> 7d003e122309d575cd5ba2b71661ef5166a11ca2
+>>>>>>> f58fd1bebe66b55d328d7ebeff98a3372d3527bc
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

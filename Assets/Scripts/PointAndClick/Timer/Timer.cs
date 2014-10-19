@@ -19,7 +19,7 @@ public class Timer : MonoBehaviour {
     {
         GUI.Label(new Rect(0, 0, 200, 50), "Time: " + time);
         var mice = GameObject.FindGameObjectsWithTag("Mouse");
-        if (mice.Length < 3)
+        if (mice.Length < 1)
             GUI.Label(new Rect(0, 50, 200, 50), "Win");
         else if (time <= 0.0f)
             GUI.Label(new Rect(0, 50, 200, 50), "Lose");
