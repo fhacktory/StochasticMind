@@ -9,6 +9,9 @@ namespace RailShooter
         private int PointsForWin = 10;
         [SerializeField]
         private GameObject cameraObj;
+        [SerializeField]
+        private float maxTime = 75.0f;
+        private float spentTime = 0.0f;
 
         // Use this for initialization
         void Start()
@@ -19,8 +22,12 @@ namespace RailShooter
         // Update is called once per frame
         void Update()
         {
+            spentTime += Time.deltaTime;
+
             if (PointsForWin <= 0)
                 Debug.Log("OnAGaGneIssI");
+            if (spentTime >= maxTime)
+                Debug.Log("ONAERDUUUUUUUUUUUUUUUUUUUUUU");
 
             if (Input.GetMouseButtonDown(0))
             {
