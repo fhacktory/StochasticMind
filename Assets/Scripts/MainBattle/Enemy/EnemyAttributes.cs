@@ -16,7 +16,13 @@ public class EnemyAttributes : MonoBehaviour
 	void Update ()
 	{
         if (0 == life)
+        {
+            var enemy = GameObject.FindGameObjectWithTag("Enemy");
+            var player = GameObject.FindGameObjectWithTag("Player");
+            enemy.GetComponent<EnemyAttributes>().inBattle = true;
+            player.GetComponent<PlayerAttributes>().inBattle = true;
             Application.LoadLevel(9);
+        }
 	}
 
     void OnGUI()
