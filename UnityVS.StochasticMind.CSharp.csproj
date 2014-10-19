@@ -179,11 +179,13 @@
     <Compile Include="Assets\Scripts\MenuScripts\ExitApp.cs" />
     <Compile Include="Assets\Scripts\MenuScripts\LaunchStory.cs" />
     <Compile Include="Assets\Scripts\MenuScripts\Rescale.cs" />
-<<<<<<< HEAD
-    <Compile Include="Assets\Scripts\PlateformRotator\OwlMovements.cs" />
-=======
+    <Compile Include="Assets\Scripts\PlateformerFalls\Block\BlockDestruction.cs" />
+    <Compile Include="Assets\Scripts\PlateformerFalls\Block\BlockStopRotation.cs" />
+    <Compile Include="Assets\Scripts\PlateformerFalls\Player\OwlLife.cs" />
+    <Compile Include="Assets\Scripts\PlateformerFalls\Player\OwlMovements.cs" />
+    <Compile Include="Assets\Scripts\PlateformerFalls\World\DoorTrigger.cs" />
+    <Compile Include="Assets\Scripts\PlateformerFalls\World\RandomFall.cs" />
     <Compile Include="Assets\Scripts\PlatformerMultiDimensional\Player.cs" />
->>>>>>> 7d003e122309d575cd5ba2b71661ef5166a11ca2
     <Compile Include="Assets\Scripts\PointAndClick\Camera\CameraController.cs" />
     <Compile Include="Assets\Scripts\PointAndClick\Item\CatchableItem.cs" />
     <Compile Include="Assets\Scripts\PointAndClick\Item\ClickableItem.cs" />
