@@ -37,7 +37,14 @@ public class ActionsMenu : MonoBehaviour
 
         buttonStyle.normal.textColor = new Color(0.8f, 0.8f, 0.0f);
 
-        GUI.Button(new Rect(Screen.width * 0.7f, Screen.height * 0.85f,
-                            Screen.width * 0.2f, Screen.height * 0.1f), "Item", buttonStyle);
+        if (GUI.Button(new Rect(Screen.width * 0.7f, Screen.height * 0.85f,
+                            Screen.width * 0.2f, Screen.height * 0.1f), "Item", buttonStyle))
+        {
+            var enemy = GameObject.FindGameObjectWithTag("Enemy");
+            var player = GameObject.FindGameObjectWithTag("Player");
+            enemy.GetComponent<EnemyAttributes>().inBattle = false;
+            player.GetComponent<PlayerAttributes>().inBattle = false;
+            Application.LoadLevel(2);
+        }
 	}
 }

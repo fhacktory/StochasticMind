@@ -5,11 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-<<<<<<< HEAD
-	<ProjectGuid>{C7FE4945-8518-F11E-A37F-494187CA60BF}</ProjectGuid>
-=======
 	<ProjectGuid>{B843C3C9-58DD-B5D1-88FA-8D842C8EEA89}</ProjectGuid>
->>>>>>> 4941455adc4784601c177d2006a2510c69da6d2b
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -170,9 +166,12 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
      <Compile Include="Assets\Scripts\MainBattle\Enemy\EnemyAttributes.cs" />
+     <Compile Include="Assets\Scripts\MainBattle\GameManager\GameManager.cs" />
+     <Compile Include="Assets\Scripts\MainBattle\GameManager\GameResult.cs" />
      <Compile Include="Assets\Scripts\MainBattle\HPBars\DrawHP.cs" />
      <Compile Include="Assets\Scripts\MainBattle\HUD\ActionsMenu.cs" />
      <Compile Include="Assets\Scripts\MainBattle\HUD\NameDisplay.cs" />
+     <Compile Include="Assets\Scripts\MainBattle\Initializer\Initializer.cs" />
      <Compile Include="Assets\Scripts\MainBattle\Player\PlayerAttributes.cs" />
      <Compile Include="Assets\Scripts\MainBattle\SuperObject.cs" />
      <Compile Include="Assets\Scripts\MenuScripts\ExitApp.cs" />
@@ -181,24 +180,9 @@
      <Compile Include="Assets\Scripts\PointAndClick\Camera\CameraController.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Item\CatchableItem.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Item\ClickableItem.cs" />
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-     <Compile Include="Assets\Scripts\PointAndClick\Randomizer\MapRandomizer.cs" />
-=======
-<<<<<<< HEAD
->>>>>>> aa45402cb5f677954bd8cff600398ab992710cb2
      <Compile Include="Assets\Scripts\PointAndClick\Item\MouseAI.cs" />
      <Compile Include="Assets\Scripts\PointAndClick\Randomizer\MapRandomizer.cs" />
-<<<<<<< HEAD
-=======
      <Compile Include="Assets\Scripts\PointAndClick\Timer\Timer.cs" />
-<<<<<<< HEAD
-=======
-=======
-     <Compile Include="Assets\Scripts\PointAndClick\Randomizer\MapRandomizer.cs" />
->>>>>>> 4941455adc4784601c177d2006a2510c69da6d2b
->>>>>>> aa45402cb5f677954bd8cff600398ab992710cb2
      <Compile Include="Assets\Scripts\ShootEmUp\Bullet.cs" />
      <Compile Include="Assets\Scripts\ShootEmUp\EnableWave.cs" />
      <Compile Include="Assets\Scripts\ShootEmUp\Enemy.cs" />
@@ -206,11 +190,6 @@
      <Compile Include="Assets\Scripts\ShootEmUp\Player.cs" />
      <Compile Include="Assets\Scripts\ShootEmUp\WavefHACKtory.cs" />
      <Compile Include="Assets\Scripts\SurvivalScripts\Battery.cs" />
-<<<<<<< HEAD
-=======
->>>>>>> 36a5388b862726446247a5566cc5c2ae6370f664
->>>>>>> 69b15daadcbb300a6bed5752c471cf338cd10f69
->>>>>>> aa45402cb5f677954bd8cff600398ab992710cb2
      <Compile Include="Assets\Scripts\SurvivalScripts\DoorMgr.cs" />
      <Compile Include="Assets\Scripts\SurvivalScripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\SurvivalScripts\Player.cs" />
@@ -252,11 +231,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-<<<<<<< HEAD
-      <Project>{090792EB-B51C-045D-CFF9-0E66E5478521}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
-=======
       <Project>{D1F1B521-237A-455D-0F24-D8C4AEA213FD}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
->>>>>>> 4941455adc4784601c177d2006a2510c69da6d2b
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

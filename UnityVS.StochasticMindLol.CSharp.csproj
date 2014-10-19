@@ -171,9 +171,12 @@
     <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
     <Compile Include="Assets\Scripts\MainBattle\Enemy\EnemyAttributes.cs" />
+    <Compile Include="Assets\Scripts\MainBattle\GameManager\GameManager.cs" />
+    <Compile Include="Assets\Scripts\MainBattle\GameManager\GameResult.cs" />
     <Compile Include="Assets\Scripts\MainBattle\HPBars\DrawHP.cs" />
     <Compile Include="Assets\Scripts\MainBattle\HUD\ActionsMenu.cs" />
     <Compile Include="Assets\Scripts\MainBattle\HUD\NameDisplay.cs" />
+    <Compile Include="Assets\Scripts\MainBattle\Initializer\Initializer.cs" />
     <Compile Include="Assets\Scripts\MainBattle\Player\PlayerAttributes.cs" />
     <Compile Include="Assets\Scripts\MainBattle\SuperObject.cs" />
     <Compile Include="Assets\Scripts\MenuScripts\ExitApp.cs" />
